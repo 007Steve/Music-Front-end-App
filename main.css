@@ -1,0 +1,81 @@
+
+body{
+    background-color:black;
+    margin: 0px;
+    position: 0px;
+}
+    #song-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;;
+    padding: 10px;
+   
+  }
+  .welcome{
+      
+    background-color: #00158b;
+background-image: linear-gradient(0deg, #00158b 0%, #2a70f5 100%);
+
+    height: 775px;
+}
+  
+  .song-card{
+    
+  }
+  .song-card:hover{
+    box-shadow: 10px 10px 5px grey;
+    width: 400px;
+    height: 300px;
+    
+    border-radius: 20px;
+    
+    background-color: white;
+  }
+  img {
+    width: 400px;
+    height: 300px;
+    margin: 0px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+#texts{
+color: aliceblue;}
+
+.container{
+  background-color: #08AEEA;
+  background-image: linear-gradient(0deg, #08AEEA 0%, #0055cd 100%);
+  
+    width:500px ;
+    height: 200px;
+    position: relative;
+    left: 500px;
+    border-radius: 10px;
+}
+#new-song-form{
+  position: relative;
+  left: 30%;
+}
+h1{
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(240, 17, 17), rgba(250, 112, 0, 0.74));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+#ml{
+   font-size: 45px;
+   text-align: center;
+   color: blanchedalmond;
+}
+
+.welcome{
+    background-color:black;
+}
+
+.delete{
+  background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+border-radius: 10px;
+}
