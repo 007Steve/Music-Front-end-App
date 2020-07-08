@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",function(){
     function addSong(e){
         e.preventDefault()
         
-
+           debugger
         let data = {
             
             'id': e.target.id.value,
@@ -24,7 +24,10 @@ document.addEventListener("DOMContentLoaded",function(){
             'mp3': e.target.mp3.value,
             'image': e.target.image.value,
             'album':e.target.album.value,
-            
+            'comments_attributes': {
+                'titles': e.target.titles.value,
+                'content': e.target.content.value,
+               }
         }
     
         fetch('http://localhost:3000/songs', {
