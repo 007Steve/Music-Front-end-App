@@ -29,6 +29,8 @@ class Song {
         <h2 id="texts">${this.artist}</h2>
         <h3 id="texts">${this.title}</h3>
         <button class="delete">Delete</button>
+        <img id="comments-logo"src="https://image.flaticon.com/icons/png/512/25/25360.png">
+        <img id="youtube-logo" src="https://www.freeiconspng.com/uploads/hd-youtube-logo-png-transparent-background-20.png" >
         `
     }
     
