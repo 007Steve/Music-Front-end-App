@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded",function(){
     .then(res => res.json())
     .then(songs =>{ 
         songs.forEach(song =>{
-            const {id, artist, title, genre, mp3, image, album} = song
-            new Song(id, artist, title, genre, mp3, image, album)
+            const {id, artist, title, genre, mp3, image, album, comment} = song
+            new Song(id, artist, title, genre, mp3, image, album,comment)
         })
     })   
   
